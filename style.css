@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    justify-content: center; /* Horizontally center the container */
+    align-items: center; /* Vertically center the container */
+    background-color: bisque; /* Background color for the body */
+}
+
+.container {
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    margin: 10px;
+    background-color: white;
+}
+label {
+    font-weight: bold;
+    background-color:white;
+}
+input {
+    display: block;
+    width: 340px;
+    height: 25px;
+    background-color:white;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+.danger {
+    color: red;
+    background-color:white;
+    font-size: 0.9em;
+}
+.good {
+    color: green;
+    background-color:white;
+    font-size: 0.9em;
+}
+button {
+    background-color: white;
+    color: black;
+    width: 140px;
+    height: 35px;
+    border-radius: 5px;
+    
+}
